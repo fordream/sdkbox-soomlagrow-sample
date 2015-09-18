@@ -1,0 +1,120 @@
+# Created by https://www.gitignore.io
+testing/
+
+*.zip
+
+userconf.ini
+
+plugins/core
+
+sample/*/proj.android/libs/
+
+**/shared/v3/
+**/shared/v2/
+
+**/jni/pluginadcolony/
+**/jni/pluginvungle/
+**/jni/sdkbox/
+**/jni/plugingoogleanalytics/
+**/jni/pluginflurryanalytics/
+**/jni/pluginchartboost/
+**/jni/pluginkochava/
+**/jni/pluginiap/
+**/jni/plugintune/
+**/jni/pluginfacebook/
+**/jni/pluginsoomlagrow/
+**/jni/pluginfyber/
+
+
+*.bak
+
+### Android ###
+gdb.setup
+gdbserver
+
+### Visual Studio ###
+*.suo
+*.sdf
+
+### Package File ###
+*.tar.gz
+sdkbox-*/
+manifest.json
+
+### Python ###
+*.pyc
+
+### Documentation ###
+_output/
+*.pdf
+
+### Android ###
+bin/
+obj/
+gen/
+assets/
+armeabi/
+local.properties
+
+### AppCode ###
+.idea/
+
+### Xcode ###
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.xcuserstate
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+.DS_Store
+*~
+*.swp
+testbuild.*
+
+### Testing ###
+**/libs/*.jar
+**/Android/jni
+**/shared/jsbindings/*
+**/shared/luabindings/*
+**/shared/proj.android/jni/*
+**/shared/proj.android/libs/*
+sample/facebook/proj.ios_mac/FBSDKCoreKit.framework
+sample/facebook/proj.ios_mac/FBSDKLoginKit.framework
+sample/facebook/proj.ios_mac/FBSDKShareKit.framework
+sample/facebook/proj.ios_mac/PluginFacebook.framework
+sample/fyber/proj.ios_mac/PluginFyber.framework
+contents.xcworkspacedata
