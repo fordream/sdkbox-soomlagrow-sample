@@ -10,6 +10,12 @@
 #include "spine/lua_cocos2dx_spine_manual.hpp"
 #include "3d/lua_cocos2dx_3d_manual.h"
 #include "audioengine/lua_cocos2dx_audioengine_manual.h"
+#include "PluginSoomlaGrowLua.hpp"
+#include "PluginSoomlaGrowLuaHelper.h"
+#include "PluginFacebookLua.hpp"
+#include "PluginFacebookLuaHelper.h"
+#include "PluginIAPLua.hpp"
+#include "PluginIAPLuaHelper.h"
 #include "physics3d/lua_cocos2dx_physics3d_manual.h"
 #include "navmesh/lua_cocos2dx_navmesh_manual.h"
 
@@ -25,6 +31,12 @@ static int lua_module_register(lua_State* L)
     register_spine_module(L);
     register_cocos3d_module(L);
     register_audioengine_module(L);
+    register_all_PluginSoomlaGrowLua(L);
+    register_all_PluginSoomlaGrowLua_helper(L);
+    register_all_PluginFacebookLua(L);
+    register_all_PluginFacebookLua_helper(L);
+    register_all_PluginIAPLua(L);
+    register_all_PluginIAPLua_helper(L);
 #if CC_USE_3D_PHYSICS && CC_ENABLE_BULLET_INTEGRATION
     register_physics3d_module(L);
 #endif

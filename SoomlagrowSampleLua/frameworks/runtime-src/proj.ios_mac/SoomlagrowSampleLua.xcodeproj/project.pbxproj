@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A84DAB8BFAFEBD6DF037E6 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D54F159099F33A4FA47B5F /* FBSDKShareKit.framework */; };
+		14D14618BEC7A6896153C5BE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4D4716BEA4B205EE5DD418 /* libsqlite3.0.dylib */; };
 		15427CD3198F221400DC375D /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A8A4251834BDA200142BE0 /* libcocos2d iOS.a */; };
 		15427CD5198F222200DC375D /* libluacocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15427CD2198F220600DC375D /* libluacocos2d iOS.a */; };
 		15427CEC198F24A600DC375D /* libluacocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15427CC2198F220600DC375D /* libluacocos2d Mac.a */; };
 		15427CEE198F24AF00DC375D /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A8A4171834BDA200142BE0 /* libcocos2d Mac.a */; };
 		15A8A4491834C64F00142BE0 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5023810C17EBBCAC00990C9B /* Icon-114.png */; };
 		15A8A4881834C90F00142BE0 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A8A4871834C90E00142BE0 /* libcurl.dylib */; };
+		1AD84FA4BB0779255E2AEEEB /* PluginFacebookLuaHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383D453EB7933F1867785A20 /* PluginFacebookLuaHelper.cpp */; };
 		1AF4C403178663F200122817 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF4C402178663F200122817 /* libz.dylib */; };
+		1D3648FCBB4245BA8D998243 /* PluginIAPLuaHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F34BEAA7752CF948D9AB09 /* PluginIAPLuaHelper.cpp */; };
+		1ED64FB0BAA1C0467B20F749 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4584A704F75C27564B71 /* FBSDKCoreKit.framework */; };
+		23C641D89DB8E47B7E3B470C /* PluginSoomlaGrowLuaHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46FB4E1B8E19615647F4E1EB /* PluginSoomlaGrowLuaHelper.cpp */; };
+		36F64974A29613756B0BAC17 /* PluginSoomlaGrowLuaHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46FB4E1B8E19615647F4E1EB /* PluginSoomlaGrowLuaHelper.cpp */; };
+		3709413B91CC560F3546DC76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CB4633ADEE7ADD014300F8 /* SystemConfiguration.framework */; };
+		3B4145B2B418EAD701FA8141 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4D4716BEA4B205EE5DD418 /* libsqlite3.0.dylib */; };
+		3CBC45F8B433FE40B6467205 /* SDKBoxLuaHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 480E4F5A94F91CE3AECC75B6 /* SDKBoxLuaHelper.cpp */; };
 		3EEEDB61197107C0006A9FF8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEEDB60197107C0006A9FF8 /* MediaPlayer.framework */; };
+		4F4F4AEA9E2AC73D95A5E693 /* PluginSoomlaGrow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F414C7F9C23E1B92AE184F1 /* PluginSoomlaGrow.framework */; };
 		5023811817EBBCAC00990C9B /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5023810817EBBCAC00990C9B /* AppController.mm */; };
 		5023811917EBBCAC00990C9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5023810917EBBCAC00990C9B /* Default-568h@2x.png */; };
 		5023811A17EBBCAC00990C9B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5023810A17EBBCAC00990C9B /* Default.png */; };
@@ -49,6 +60,18 @@
 		5200BECA1A53D9A500AC45E4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200BEC91A53D9A500AC45E4 /* Security.framework */; };
 		521A8E7019F0C3D200D177D7 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6E19F0C3D200D177D7 /* Default-667h@2x.png */; };
 		521A8E7119F0C3D200D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6F19F0C3D200D177D7 /* Default-736h@3x.png */; };
+		5B7D4F828E471D7CDA001FD7 /* PluginSoomlaGrowLua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5F449648CE37F02F8B5D4A4 /* PluginSoomlaGrowLua.cpp */; };
+		66274840AC52587118540AB6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A300491C9408BC2F7A8D1C56 /* StoreKit.framework */; };
+		6D7E4E7FBB5225BBD4A2C5C0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54A40B4BA40568B68774CF7 /* AdSupport.framework */; };
+		6E904370BD439C36812B91E9 /* PluginIAPLua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D36C43F1B0EEC4E5D3E43EC9 /* PluginIAPLua.cpp */; };
+		71724ED1BCD8A907E4C88CD8 /* PluginIAPLuaHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F34BEAA7752CF948D9AB09 /* PluginIAPLuaHelper.cpp */; };
+		79B44FB082C2898196C24D7A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CB4633ADEE7ADD014300F8 /* SystemConfiguration.framework */; };
+		82BE414EB715334F0A3BFA26 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D54F159099F33A4FA47B5F /* FBSDKShareKit.framework */; };
+		8EE246F698474475855B5010 /* PluginFacebookLuaHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383D453EB7933F1867785A20 /* PluginFacebookLuaHelper.cpp */; };
+		8F3043C288DC4EF3C3006F5E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F4B6287C965112E83E710 /* FBSDKLoginKit.framework */; };
+		99184DB2AFFF327E4C6E5456 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 87514B21A5259BBBB45B8E31 /* libicucore.dylib */; };
+		991E4256A34D42ACF7A7D529 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54A40B4BA40568B68774CF7 /* AdSupport.framework */; };
+		9EA64983BA9076D3A69B0223 /* PluginFacebookLua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A46B5A70E4BA70AA01AA3 /* PluginFacebookLua.cpp */; };
 		9FC760431A67791200D1E6E7 /* lang in Resources */ = {isa = PBXBuildFile; fileRef = 9FC760401A67791200D1E6E7 /* lang */; };
 		9FC760451A677A4A00D1E6E7 /* SimpleConfigParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FC760411A67791200D1E6E7 /* SimpleConfigParser.cpp */; };
 		9FF504841A5E87B100AFDA55 /* ConsoleWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF504811A5E87B100AFDA55 /* ConsoleWindow.xib */; };
@@ -60,6 +83,9 @@
 		9FFE00A01ACCF59E00D6E35A /* lua_debugger.c in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE009B1ACCF59E00D6E35A /* lua_debugger.c */; };
 		9FFE00A11ACCF59E00D6E35A /* RuntimeLuaImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE009D1ACCF59E00D6E35A /* RuntimeLuaImpl.cpp */; };
 		9FFE00A21ACCF59E00D6E35A /* RuntimeLuaImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE009D1ACCF59E00D6E35A /* RuntimeLuaImpl.cpp */; };
+		A0A34C65ADFC83F070AC4AA2 /* sdkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CD45BDA4DC1558A9176A4B /* sdkbox.framework */; };
+		B9594D2CB9545773198773C2 /* PluginFacebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D34876AE2957BCA5C373CB /* PluginFacebook.framework */; };
+		BCBB466EB671F913C2F7F6D6 /* SDKBoxLuaHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 480E4F5A94F91CE3AECC75B6 /* SDKBoxLuaHelper.cpp */; };
 		C03781B918BF655400FE4F13 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C03781B718BF655400FE4F13 /* res */; };
 		C03781BA18BF655400FE4F13 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C03781B718BF655400FE4F13 /* res */; };
 		C03781BB18BF655400FE4F13 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C03781B818BF655400FE4F13 /* src */; };
@@ -68,10 +94,19 @@
 		C05D1C131923449100B808A4 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = C05D1C111923449100B808A4 /* config.json */; };
 		C07828F818B4D72E00BD2287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C07828F418B4D72E00BD2287 /* main.m */; };
 		C07828FA18B4D72E00BD2287 /* SimulatorApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07828F718B4D72E00BD2287 /* SimulatorApp.mm */; };
+		CB454C5FB6E3EAF75EF7B605 /* PluginIAPLua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D36C43F1B0EEC4E5D3E43EC9 /* PluginIAPLua.cpp */; };
 		D6B061351803AC000077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B061341803AC000077942B /* CoreMotion.framework */; };
+		D7CE4604A60108C5CF697CED /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F4B6287C965112E83E710 /* FBSDKLoginKit.framework */; };
 		DA9E7D881AB1ABCC004B27C8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9E7D871AB1ABCC004B27C8 /* Security.framework */; };
+		DBFD41D6B8C664823CF13EE6 /* PluginFacebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D34876AE2957BCA5C373CB /* PluginFacebook.framework */; };
+		DC47448ABFB6997FD5103700 /* PluginFacebookLua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A46B5A70E4BA70AA01AA3 /* PluginFacebookLua.cpp */; };
+		E4F247DA9C510C5E8B584EFD /* sdkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CD45BDA4DC1558A9176A4B /* sdkbox.framework */; };
+		E9D14EC59F581633081AE900 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47654B398B11711069EC9F1B /* GameController.framework */; };
+		EA4B4F94A0A8E17C948AC916 /* PluginSoomlaGrowLua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5F449648CE37F02F8B5D4A4 /* PluginSoomlaGrowLua.cpp */; };
 		ED545A891B68A23E00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A881B68A23E00C3958E /* libiconv.dylib */; };
 		ED545A8B1B68A24500C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A8A1B68A24500C3958E /* libiconv.dylib */; };
+		EF9945DBBA494C6F4D808330 /* PluginIAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDD4EEBA7C33AD7FDFC6477 /* PluginIAP.framework */; };
+		F0D6401CA9E43ED5E5213D8D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 87514B21A5259BBBB45B8E31 /* libicucore.dylib */; };
 		F293B3CD15EB7BE500256477 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F293B3CC15EB7BE500256477 /* QuartzCore.framework */; };
 		F293B3D115EB7BE500256477 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F293B3D015EB7BE500256477 /* OpenAL.framework */; };
 		F293B3D315EB7BE500256477 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F293B3D215EB7BE500256477 /* AudioToolbox.framework */; };
@@ -79,6 +114,11 @@
 		F293B3D915EB7BE500256477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F293B3D815EB7BE500256477 /* Foundation.framework */; };
 		F293B3DB15EB7BE500256477 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F293B3DA15EB7BE500256477 /* CoreGraphics.framework */; };
 		F293BB9C15EB831F00256477 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F293BB7E15EB831F00256477 /* AppDelegate.cpp */; };
+		F2B34A7E8CE0BC5BE54F4950 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4584A704F75C27564B71 /* FBSDKCoreKit.framework */; };
+		F32746A3AB0D43603D3C1806 /* PluginIAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDD4EEBA7C33AD7FDFC6477 /* PluginIAP.framework */; };
+		F52B4AEABDF527C7501A11BE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A300491C9408BC2F7A8D1C56 /* StoreKit.framework */; };
+		F894427EA4640D3637E9E0CD /* PluginSoomlaGrow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F414C7F9C23E1B92AE184F1 /* PluginSoomlaGrow.framework */; };
+		FB844DA4AFFD9C636903107D /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47654B398B11711069EC9F1B /* GameController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,13 +209,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002E4584A704F75C27564B71 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0F414C7F9C23E1B92AE184F1 /* PluginSoomlaGrow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginSoomlaGrow.framework; sourceTree = "<group>"; };
+		11D54F159099F33A4FA47B5F /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		15427CE2198F237300DC375D /* lua_module_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lua_module_register.h; path = ../Classes/lua_module_register.h; sourceTree = "<group>"; };
 		15A8A4031834BDA200142BE0 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "../../cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
 		15A8A4871834C90E00142BE0 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		15C1568D1683131500D239F2 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "../../cocos2d-x/cocos2dx/platform/third_party/ios/libraries/libcurl.a"; sourceTree = "<group>"; };
+		1999442D924CAED8C881CB14 /* PluginIAPLuaHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginIAPLuaHelper.h; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginIAPLuaHelper.h"; sourceTree = "<absolute>"; };
 		1AF4C402178663F200122817 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		374F4DA9B2605507A73E66EF /* PluginFacebookLua.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginFacebookLua.hpp; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginFacebookLua.hpp"; sourceTree = "<absolute>"; };
+		383D453EB7933F1867785A20 /* PluginFacebookLuaHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginFacebookLuaHelper.cpp; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginFacebookLuaHelper.cpp"; sourceTree = "<absolute>"; };
+		38CD45BDA4DC1558A9176A4B /* sdkbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sdkbox.framework; sourceTree = "<group>"; };
 		3EB51526195187AF006966AA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3EEEDB60197107C0006A9FF8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		3F8A46B5A70E4BA70AA01AA3 /* PluginFacebookLua.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginFacebookLua.cpp; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginFacebookLua.cpp"; sourceTree = "<absolute>"; };
+		45C64758B357B7C4BFF5BAFE /* PluginIAPLua.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginIAPLua.hpp; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginIAPLua.hpp"; sourceTree = "<absolute>"; };
+		46FB4E1B8E19615647F4E1EB /* PluginSoomlaGrowLuaHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginSoomlaGrowLuaHelper.cpp; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginSoomlaGrowLuaHelper.cpp"; sourceTree = "<absolute>"; };
+		47654B398B11711069EC9F1B /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		480E4F5A94F91CE3AECC75B6 /* SDKBoxLuaHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKBoxLuaHelper.cpp; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/SDKBoxLuaHelper.cpp"; sourceTree = "<absolute>"; };
+		4BDD4EEBA7C33AD7FDFC6477 /* PluginIAP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginIAP.framework; sourceTree = "<group>"; };
 		5023810717EBBCAC00990C9B /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		5023810817EBBCAC00990C9B /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
 		5023810917EBBCAC00990C9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -209,8 +262,15 @@
 		50D7C96D17EBBEE6005D0B91 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		50D7C96F17EBBEEC005D0B91 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		5200BEC91A53D9A500AC45E4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		52154D629EBB39950B1FF151 /* SDKBoxLuaHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKBoxLuaHelper.h; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/SDKBoxLuaHelper.h"; sourceTree = "<absolute>"; };
 		521A8E6E19F0C3D200D177D7 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		521A8E6F19F0C3D200D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		6B3F4B6287C965112E83E710 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		74CB4633ADEE7ADD014300F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		80F34BEAA7752CF948D9AB09 /* PluginIAPLuaHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginIAPLuaHelper.cpp; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginIAPLuaHelper.cpp"; sourceTree = "<absolute>"; };
+		87514B21A5259BBBB45B8E31 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libicucore.dylib; sourceTree = DEVELOPER_DIR; };
+		9B4D4716BEA4B205EE5DD418 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libsqlite3.0.dylib; sourceTree = DEVELOPER_DIR; };
+		9F504B64816AE619EC5068DA /* PluginFacebookLuaHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginFacebookLuaHelper.h; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginFacebookLuaHelper.h"; sourceTree = "<absolute>"; };
 		9FC7603F1A67791200D1E6E7 /* CodeIDESupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeIDESupport.h; sourceTree = "<group>"; };
 		9FC760401A67791200D1E6E7 /* lang */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lang; sourceTree = "<group>"; };
 		9FC760411A67791200D1E6E7 /* SimpleConfigParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleConfigParser.cpp; sourceTree = "<group>"; };
@@ -225,6 +285,11 @@
 		9FFE009C1ACCF59E00D6E35A /* lua_debugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_debugger.h; sourceTree = "<group>"; };
 		9FFE009D1ACCF59E00D6E35A /* RuntimeLuaImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuntimeLuaImpl.cpp; sourceTree = "<group>"; };
 		9FFE009E1ACCF59E00D6E35A /* RuntimeLuaImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeLuaImpl.h; sourceTree = "<group>"; };
+		A300491C9408BC2F7A8D1C56 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		A4EB4047BEC55DE6882F6D5D /* PluginSoomlaGrowLuaHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginSoomlaGrowLuaHelper.h; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginSoomlaGrowLuaHelper.h"; sourceTree = "<absolute>"; };
+		A54A40B4BA40568B68774CF7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		A6D34876AE2957BCA5C373CB /* PluginFacebook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginFacebook.framework; sourceTree = "<group>"; };
+		B5F449648CE37F02F8B5D4A4 /* PluginSoomlaGrowLua.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginSoomlaGrowLua.cpp; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginSoomlaGrowLua.cpp"; sourceTree = "<absolute>"; };
 		C03781AE18BF654500FE4F13 /* cocos2d_lua_bindings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_lua_bindings.xcodeproj; path = "../../cocos2d-x/cocos/scripting/lua-bindings/proj.ios_mac/cocos2d_lua_bindings.xcodeproj"; sourceTree = "<group>"; };
 		C03781B718BF655400FE4F13 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../../../res; sourceTree = "<group>"; };
 		C03781B818BF655400FE4F13 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../src; sourceTree = "<group>"; };
@@ -232,6 +297,8 @@
 		C07828F418B4D72E00BD2287 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C07828F618B4D72E00BD2287 /* SimulatorApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulatorApp.h; sourceTree = "<group>"; };
 		C07828F718B4D72E00BD2287 /* SimulatorApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SimulatorApp.mm; sourceTree = "<group>"; };
+		D36C43F1B0EEC4E5D3E43EC9 /* PluginIAPLua.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginIAPLua.cpp; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginIAPLua.cpp"; sourceTree = "<absolute>"; };
+		D4704E82B903CA9EB6E5EF5B /* PluginSoomlaGrowLua.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginSoomlaGrowLua.hpp; path = "/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/Classes/PluginSoomlaGrowLua.hpp"; sourceTree = "<absolute>"; };
 		D6B061341803AC000077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		DA9E7D871AB1ABCC004B27C8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		ED545A881B68A23E00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
@@ -269,6 +336,19 @@
 				5023814117EBBCE400990C9B /* AudioToolbox.framework in Frameworks */,
 				5023814417EBBCE400990C9B /* Foundation.framework in Frameworks */,
 				5023814517EBBCE400990C9B /* CoreGraphics.framework in Frameworks */,
+				A0A34C65ADFC83F070AC4AA2 /* sdkbox.framework in Frameworks */,
+				EF9945DBBA494C6F4D808330 /* PluginIAP.framework in Frameworks */,
+				F52B4AEABDF527C7501A11BE /* StoreKit.framework in Frameworks */,
+				6D7E4E7FBB5225BBD4A2C5C0 /* AdSupport.framework in Frameworks */,
+				79B44FB082C2898196C24D7A /* SystemConfiguration.framework in Frameworks */,
+				B9594D2CB9545773198773C2 /* PluginFacebook.framework in Frameworks */,
+				F2B34A7E8CE0BC5BE54F4950 /* FBSDKCoreKit.framework in Frameworks */,
+				D7CE4604A60108C5CF697CED /* FBSDKLoginKit.framework in Frameworks */,
+				00A84DAB8BFAFEBD6DF037E6 /* FBSDKShareKit.framework in Frameworks */,
+				F894427EA4640D3637E9E0CD /* PluginSoomlaGrow.framework in Frameworks */,
+				14D14618BEC7A6896153C5BE /* libsqlite3.0.dylib in Frameworks */,
+				99184DB2AFFF327E4C6E5456 /* libicucore.dylib in Frameworks */,
+				FB844DA4AFFD9C636903107D /* GameController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +372,19 @@
 				F293B3D515EB7BE500256477 /* AVFoundation.framework in Frameworks */,
 				F293B3D915EB7BE500256477 /* Foundation.framework in Frameworks */,
 				F293B3DB15EB7BE500256477 /* CoreGraphics.framework in Frameworks */,
+				E4F247DA9C510C5E8B584EFD /* sdkbox.framework in Frameworks */,
+				F32746A3AB0D43603D3C1806 /* PluginIAP.framework in Frameworks */,
+				66274840AC52587118540AB6 /* StoreKit.framework in Frameworks */,
+				991E4256A34D42ACF7A7D529 /* AdSupport.framework in Frameworks */,
+				3709413B91CC560F3546DC76 /* SystemConfiguration.framework in Frameworks */,
+				DBFD41D6B8C664823CF13EE6 /* PluginFacebook.framework in Frameworks */,
+				1ED64FB0BAA1C0467B20F749 /* FBSDKCoreKit.framework in Frameworks */,
+				8F3043C288DC4EF3C3006F5E /* FBSDKLoginKit.framework in Frameworks */,
+				82BE414EB715334F0A3BFA26 /* FBSDKShareKit.framework in Frameworks */,
+				4F4F4AEA9E2AC73D95A5E693 /* PluginSoomlaGrow.framework in Frameworks */,
+				3B4145B2B418EAD701FA8141 /* libsqlite3.0.dylib in Frameworks */,
+				F0D6401CA9E43ED5E5213D8D /* libicucore.dylib in Frameworks */,
+				E9D14EC59F581633081AE900 /* GameController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +541,19 @@
 				F293B3D615EB7BE500256477 /* UIKit.framework */,
 				F293B3D815EB7BE500256477 /* Foundation.framework */,
 				F293B3DA15EB7BE500256477 /* CoreGraphics.framework */,
+				38CD45BDA4DC1558A9176A4B /* sdkbox.framework */,
+				4BDD4EEBA7C33AD7FDFC6477 /* PluginIAP.framework */,
+				A300491C9408BC2F7A8D1C56 /* StoreKit.framework */,
+				A54A40B4BA40568B68774CF7 /* AdSupport.framework */,
+				74CB4633ADEE7ADD014300F8 /* SystemConfiguration.framework */,
+				A6D34876AE2957BCA5C373CB /* PluginFacebook.framework */,
+				002E4584A704F75C27564B71 /* FBSDKCoreKit.framework */,
+				6B3F4B6287C965112E83E710 /* FBSDKLoginKit.framework */,
+				11D54F159099F33A4FA47B5F /* FBSDKShareKit.framework */,
+				0F414C7F9C23E1B92AE184F1 /* PluginSoomlaGrow.framework */,
+				9B4D4716BEA4B205EE5DD418 /* libsqlite3.0.dylib */,
+				87514B21A5259BBBB45B8E31 /* libicucore.dylib */,
+				47654B398B11711069EC9F1B /* GameController.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -459,6 +565,20 @@
 				15427CE2198F237300DC375D /* lua_module_register.h */,
 				F293BB7E15EB831F00256477 /* AppDelegate.cpp */,
 				F293BB7F15EB831F00256477 /* AppDelegate.h */,
+				45C64758B357B7C4BFF5BAFE /* PluginIAPLua.hpp */,
+				D36C43F1B0EEC4E5D3E43EC9 /* PluginIAPLua.cpp */,
+				80F34BEAA7752CF948D9AB09 /* PluginIAPLuaHelper.cpp */,
+				1999442D924CAED8C881CB14 /* PluginIAPLuaHelper.h */,
+				52154D629EBB39950B1FF151 /* SDKBoxLuaHelper.h */,
+				480E4F5A94F91CE3AECC75B6 /* SDKBoxLuaHelper.cpp */,
+				374F4DA9B2605507A73E66EF /* PluginFacebookLua.hpp */,
+				3F8A46B5A70E4BA70AA01AA3 /* PluginFacebookLua.cpp */,
+				383D453EB7933F1867785A20 /* PluginFacebookLuaHelper.cpp */,
+				9F504B64816AE619EC5068DA /* PluginFacebookLuaHelper.h */,
+				D4704E82B903CA9EB6E5EF5B /* PluginSoomlaGrowLua.hpp */,
+				B5F449648CE37F02F8B5D4A4 /* PluginSoomlaGrowLua.cpp */,
+				46FB4E1B8E19615647F4E1EB /* PluginSoomlaGrowLuaHelper.cpp */,
+				A4EB4047BEC55DE6882F6D5D /* PluginSoomlaGrowLuaHelper.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -678,6 +798,13 @@
 				9FF504851A5E87B100AFDA55 /* ConsoleWindowController.m in Sources */,
 				C07828F818B4D72E00BD2287 /* main.m in Sources */,
 				9FFE00A21ACCF59E00D6E35A /* RuntimeLuaImpl.cpp in Sources */,
+				6E904370BD439C36812B91E9 /* PluginIAPLua.cpp in Sources */,
+				1D3648FCBB4245BA8D998243 /* PluginIAPLuaHelper.cpp in Sources */,
+				3CBC45F8B433FE40B6467205 /* SDKBoxLuaHelper.cpp in Sources */,
+				9EA64983BA9076D3A69B0223 /* PluginFacebookLua.cpp in Sources */,
+				8EE246F698474475855B5010 /* PluginFacebookLuaHelper.cpp in Sources */,
+				EA4B4F94A0A8E17C948AC916 /* PluginSoomlaGrowLua.cpp in Sources */,
+				36F64974A29613756B0BAC17 /* PluginSoomlaGrowLuaHelper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,6 +819,13 @@
 				5023812417EBBCAC00990C9B /* main.m in Sources */,
 				9FFE00A11ACCF59E00D6E35A /* RuntimeLuaImpl.cpp in Sources */,
 				5023811817EBBCAC00990C9B /* AppController.mm in Sources */,
+				CB454C5FB6E3EAF75EF7B605 /* PluginIAPLua.cpp in Sources */,
+				71724ED1BCD8A907E4C88CD8 /* PluginIAPLuaHelper.cpp in Sources */,
+				BCBB466EB671F913C2F7F6D6 /* SDKBoxLuaHelper.cpp in Sources */,
+				DC47448ABFB6997FD5103700 /* PluginFacebookLua.cpp in Sources */,
+				1AD84FA4BB0779255E2AEEEB /* PluginFacebookLuaHelper.cpp in Sources */,
+				5B7D4F828E471D7CDA001FD7 /* PluginSoomlaGrowLua.cpp in Sources */,
+				23C641D89DB8E47B7E3B470C /* PluginSoomlaGrowLuaHelper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,6 +888,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = ../../../runtime/mac;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/proj.ios_mac/\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mac/Prefix.pch;
@@ -769,7 +904,15 @@
 					"$(SRCROOT)/../../cocos2d-x/tools/simulator/libsimulator/lib",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"sdkbox.framework\"",
+					"\"PluginIAP.framework\"",
+					"\"PluginFacebook.framework\"",
+					"\"FBSDKCoreKit.framework\"",
+					"\"FBSDKLoginKit.framework\"",
+					"\"FBSDKShareKit.framework\"",
+					"\"PluginSoomlaGrow.framework\"",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = (
 					"-image_base",
@@ -778,6 +921,7 @@
 					10000,
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
+					"-ObjC",
 				);
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../cocos2d-x/cocos/platform/mac $(SRCROOT)/../../cocos2d-x/external/glfw3/include/mac $(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
@@ -790,6 +934,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/proj.ios_mac/\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mac/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -804,7 +949,15 @@
 					"$(SRCROOT)/../../cocos2d-x/tools/simulator/libsimulator/lib",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"sdkbox.framework\"",
+					"\"PluginIAP.framework\"",
+					"\"PluginFacebook.framework\"",
+					"\"FBSDKCoreKit.framework\"",
+					"\"FBSDKLoginKit.framework\"",
+					"\"FBSDKShareKit.framework\"",
+					"\"PluginSoomlaGrow.framework\"",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = (
 					"-image_base",
@@ -813,6 +966,7 @@
 					10000,
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
+					"-ObjC",
 				);
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../cocos2d-x/cocos/platform/mac $(SRCROOT)/../../cocos2d-x/external/glfw3/include/mac $(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
@@ -825,6 +979,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/proj.ios_mac/\"";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -839,7 +994,17 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"sdkbox.framework\"",
+					"\"PluginIAP.framework\"",
+					"\"PluginFacebook.framework\"",
+					"\"FBSDKCoreKit.framework\"",
+					"\"FBSDKLoginKit.framework\"",
+					"\"FBSDKShareKit.framework\"",
+					"\"PluginSoomlaGrow.framework\"",
+				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../../cocos2d-x/cocos/base $(SRCROOT)/../../cocos2d-x/cocos/physics $(SRCROOT)/../../cocos2d-x/cocos/math/kazmath $(SRCROOT)/../../cocos2d-x/cocos/2d $(SRCROOT)/../../cocos2d-x/cocos/ui $(SRCROOT)/../../cocos2d-x/cocos/network $(SRCROOT)/../../cocos2d-x/cocos/audio/include $(SRCROOT)/../../cocos2d-x/cocos/editor-support $(SRCROOT)/../../cocos2d-x/extensions $(SRCROOT)/../../cocos2d-x/external $(SRCROOT)/../../cocos2d-x/external/chipmunk/include/chipmunk $(SRCROOT)/../../cocos2d-x/external/lua/luajit/include $(SRCROOT)/../../cocos2d-x/external/lua/tolua $(SRCROOT)/../../cocos2d-x/cocos/scripting/lua-bindings/manual $(SRCROOT)/../../cocos2d-x/cocos/scripting/lua-bindings/auto $(SRCROOT)/../../cocos2d-x/tools/simulator/libsimulator/lib $(SRCROOT)/../../cocos2d-x/tools/simulator/libsimulator/lib/protobuf-lite";
 			};
@@ -850,6 +1015,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/proj.ios_mac/\"";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
@@ -860,7 +1026,17 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"sdkbox.framework\"",
+					"\"PluginIAP.framework\"",
+					"\"PluginFacebook.framework\"",
+					"\"FBSDKCoreKit.framework\"",
+					"\"FBSDKLoginKit.framework\"",
+					"\"FBSDKShareKit.framework\"",
+					"\"PluginSoomlaGrow.framework\"",
+				);
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../../cocos2d-x/cocos/base $(SRCROOT)/../../cocos2d-x/cocos/physics $(SRCROOT)/../../cocos2d-x/cocos/math/kazmath $(SRCROOT)/../../cocos2d-x/cocos/2d $(SRCROOT)/../../cocos2d-x/cocos/ui $(SRCROOT)/../../cocos2d-x/cocos/network $(SRCROOT)/../../cocos2d-x/cocos/audio/include $(SRCROOT)/../../cocos2d-x/cocos/editor-support $(SRCROOT)/../../cocos2d-x/extensions $(SRCROOT)/../../cocos2d-x/external $(SRCROOT)/../../cocos2d-x/external/chipmunk/include/chipmunk $(SRCROOT)/../../cocos2d-x/external/lua/luajit/include $(SRCROOT)/../../cocos2d-x/external/lua/tolua $(SRCROOT)/../../cocos2d-x/cocos/scripting/lua-bindings/manual $(SRCROOT)/../../cocos2d-x/cocos/scripting/lua-bindings/auto $(SRCROOT)/../../cocos2d-x/tools/simulator/libsimulator/lib $(SRCROOT)/../../cocos2d-x/tools/simulator/libsimulator/lib/protobuf-lite";
 				VALIDATE_PRODUCT = YES;
@@ -873,6 +1049,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/proj.ios_mac/\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -887,10 +1064,19 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"sdkbox.framework\"",
+					"\"PluginIAP.framework\"",
+					"\"PluginFacebook.framework\"",
+					"\"FBSDKCoreKit.framework\"",
+					"\"FBSDKLoginKit.framework\"",
+					"\"FBSDKShareKit.framework\"",
+					"\"PluginSoomlaGrow.framework\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
+					"-ObjC",
 				);
 				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=x86_64]" = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
@@ -899,6 +1085,7 @@
 					10000,
 					"-image_base",
 					100000000,
+					"-ObjC",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -913,6 +1100,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/htl/Documents/Work/sdkbox-soomlagrow-sample/SoomlagrowSampleLua/frameworks/runtime-src/proj.ios_mac/\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -926,10 +1114,19 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"sdkbox.framework\"",
+					"\"PluginIAP.framework\"",
+					"\"PluginFacebook.framework\"",
+					"\"FBSDKCoreKit.framework\"",
+					"\"FBSDKLoginKit.framework\"",
+					"\"FBSDKShareKit.framework\"",
+					"\"PluginSoomlaGrow.framework\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
+					"-ObjC",
 				);
 				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=x86_64]" = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
@@ -938,6 +1135,7 @@
 					10000,
 					"-image_base",
 					100000000,
+					"-ObjC",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
